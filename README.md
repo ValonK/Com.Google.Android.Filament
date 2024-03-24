@@ -1,3 +1,5 @@
+![](https://github.com/ValonK/Com.Google.Android.Filament/blob/main/icon.png)
+
 # Com.Google.Android.Filament for .NET MAUI
 
 This project provides .NET MAUI bindings for the Google Filament rendering engine, allowing for high-quality real-time 3D rendering in Android applications using .NET MAUI. The bindings are created for the Filament libraries version 1.51.0.
