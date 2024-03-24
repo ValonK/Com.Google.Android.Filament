@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0-android</TargetFramework>
+        <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+
+        <Authors>Valon.K</Authors>
+        <Copyright>2024 © Valon.K</Copyright>
+        <IsPackable>True</IsPackable>
+        <RepositoryUrl>https://github.com/ValonK/Com.Google.Android.Filament</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>Google Filament</PackageTags>
+        <IncludeSymbols>false</IncludeSymbols>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <Title>Com.Google.Android.Filament.MAUI</Title>
+        <PackageId>Com.Google.Android.Filament.MAUI</PackageId>
+        <Description>MAUI Android Bindings for Google Filament</Description>
+        <Version>1.51.0</Version>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    </PropertyGroup>
+    <ItemGroup>
+        <AndroidAarLibrary Include="Jars\filament-utils-v1.51.0-android.aar" />
+        <AndroidAarLibrary Include="Jars\filament-v1.51.0-android.aar" />
+        <AndroidAarLibrary Include="Jars\gltfio-v1.51.0-android.aar" />
+    </ItemGroup>
+</Project>
