@@ -17,7 +17,7 @@
         <Title>Com.Google.Android.Filament.MAUI</Title>
         <PackageId>Com.Google.Android.Filament.MAUI</PackageId>
         <Description>MAUI Android Bindings for Google Filament</Description>
-        <Version>1.51.0</Version>
+        <Version>1.51.2</Version>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>License.txt</PackageLicenseFile>
@@ -29,8 +29,8 @@
         <None Include="icon.png" Pack="true" PackagePath=""/>
     </ItemGroup>
     <ItemGroup>
-        <AndroidAarLibrary Include="Jars\filament-utils-v1.51.0-android.aar" />
-        <AndroidAarLibrary Include="Jars\filament-v1.51.0-android.aar" />
-        <AndroidAarLibrary Include="Jars\gltfio-v1.51.0-android.aar" />
+        <AndroidAarLibrary Include="Jars\filament-utils-v1.51.2-android.aar" />
+        <AndroidAarLibrary Include="Jars\filament-v1.51.2-android.aar" />
+        <AndroidAarLibrary Include="Jars\gltfio-v1.51.2-android.aar" />
     </ItemGroup>
 </Project>
