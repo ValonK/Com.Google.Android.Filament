@@ -17,12 +17,17 @@
         <Title>Com.Google.Android.Filament.MAUI</Title>
         <PackageId>Com.Google.Android.Filament.MAUI</PackageId>
         <Description>MAUI Android Bindings for Google Filament</Description>
-        <Version>1.51.7</Version>
+        <Version>1.53.5</Version>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>License.txt</PackageLicenseFile>
         <PackageIcon>icon.png</PackageIcon>
     </PropertyGroup>
+    <ItemGroup>
+      <None Remove="Jars\filament-utils-v1.53.5-android.aar" />
+      <None Remove="Jars\filament-v1.53.5-android.aar" />
+      <None Remove="Jars\gltfio-v1.53.5-android.aar" />
+    </ItemGroup>
     <ItemGroup>
         <None Include="README.md" Pack="true" PackagePath="\" />
         <None Include="License.txt" Pack="true" PackagePath="" />
