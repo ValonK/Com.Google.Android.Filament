@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <TargetFrameworks>net8.0-android;net9.0-android</TargetFrameworks>
+        <TargetFrameworks>net9.0-android;net10.0-android</TargetFrameworks>
         <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -17,7 +17,7 @@
         <Title>Com.Google.Android.Filament.MAUI</Title>
         <PackageId>Com.Google.Android.Filament.MAUI</PackageId>
         <Description>MAUI Android Bindings for Google Filament</Description>
-        <Version>1.65.0</Version>
+        <Version>1.65.1</Version>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>License.txt</PackageLicenseFile>
